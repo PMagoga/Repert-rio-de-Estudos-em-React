@@ -1,0 +1,13 @@
+//criando um novo projeto
+npm create vite@latest
+
+//após o projeto criado seguir as diretrizes do terminal
+cd "nome projeto"
+npm install
+npm run dev
+
+// para criar componentes, criar a pasta componentes, e o nome do componentes sempre em CamelCase
+
+
+
+
