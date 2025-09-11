@@ -13,3 +13,42 @@ body {
     min-height: 100vh;
     color: #fff;
 }
+
+#calc-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    flex: 1;
+}
+
+.form-control label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
